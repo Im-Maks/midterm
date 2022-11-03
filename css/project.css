@@ -1,0 +1,293 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.r_navbar{
+    float: left;
+    width: 100%;
+    min-height: 83px;
+}
+.logo{
+    float: left;
+    width: 190px;
+    height: 52px;
+    margin-top: 12px;
+}
+.navig{
+    float: left;
+    width: 680px;
+    height: 22px;
+    padding: 48px 0px 0px 90px;
+}
+.navig ul li{
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Zilla Slab';
+    padding-right: 40px;
+}
+.az{
+    float: left;
+    width: 50px;
+    height: 25px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    z-index: 1;
+}
+.navig ul li::after{
+    border-bottom: 1px black solid;
+}
+
+.r_c{
+    float: right;
+    position: relative;
+    width: 175px;
+    height: 83px;
+    background-color: #253476;
+    color: white;
+    font-family: "Zilla Slab";
+    letter-spacing: 1px;
+    right: 0px;
+}
+.r_c span{
+    position: absolute;
+    top: 23px;
+    left: 18px;
+}
+.c_img img{
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.c_img_t{
+    position: absolute;
+    width: 690px;
+    height: 104px;
+    top: 221px;
+    left: 425px;
+}
+.c_img_t span{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #27AE60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c_img_t span:nth-child(2){
+    color: black;
+    font-weight: 400;
+}
+.dashed_b{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.f_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 36.png");
+}
+.f_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.f_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
+.f_img:hover{
+    background-color: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    /* background: transparent; */
+}
+.s_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 76.png");
+}
+.s_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.s_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
+.t_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 36.png");
+    
+}
+.t_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.t_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
+.fo_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 36.png");
+    top: 30px;
+}
+.fo_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.fo_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
+.fi_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 95.png");
+    top: 30px;
+}
+.fi_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.fi_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
+.si_img{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 15px;
+    background-image: url("../img/Rectangle\ 76.png");
+    top: 30px;
+}
+.si_img p{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    top: 285px;
+    left: 35px;
+}
+.si_img span{
+    position: absolute;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    top: 324px;
+    left: 35px;
+    color: white;
+}
