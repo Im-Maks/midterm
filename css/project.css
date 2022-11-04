@@ -27,7 +27,7 @@ body{
 }
 .navig ul li{
     float: left;
-    
+    cursor: pointer;
     list-style-type: none;
     font-size: 18px;
     letter-spacing: 1px;
@@ -128,6 +128,7 @@ body{
     color: white;
     top: 285px;
     left: 35px;
+    cursor: pointer;
 }
 .f_img span{
     position: absolute;
@@ -139,6 +140,7 @@ body{
     top: 324px;
     left: 35px;
     color: white;
+    cursor: pointer;
 }
 /* .f_img:hover{
     background-image: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
@@ -163,6 +165,7 @@ body{
     align-items: center;
     background-color: #F3F3F3;
     margin-right: 30px;
+    cursor: pointer;
 }
 .bef i{
     padding-right: 5px;
@@ -176,12 +179,14 @@ body{
     align-items: center;
     background-color: #27AE60;
     margin-left: 30px;
+    cursor: pointer;
 }
 .aft i{
     padding-left: 5px;
 }
 .num span{
     word-spacing: 20px;
+    cursor: pointer;
 }
 .footer{
     float: left;
